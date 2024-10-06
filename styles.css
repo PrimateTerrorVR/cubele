@@ -17,9 +17,9 @@ body {
     background-position: center; 
     background-repeat: no-repeat;
     position: absolute;
-    width: 600%;
-    height: 400%;
-    z-index: -1;
+    width: 300%;
+    height: 40%;
+    z-index: 0;
     transform: rotate(15deg); /* Tilt effect */
 }
 
