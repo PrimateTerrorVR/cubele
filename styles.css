@@ -13,7 +13,7 @@ body {
 
 .background {
     background-image: url('https://ac.blooket.com/dashboard/assets/BlookCheckers-BykpA7vd.png');
-    background-size: 150%; /* Adjust size for a better fit */
+    background-size: 80%; /* Adjust size for a better fit */
     background-position: center; 
     background-repeat: repeat; /* Repeat the background for full coverage */
     position: absolute;
