@@ -17,7 +17,7 @@ body {
     background-position: center; 
     background-repeat: repeat; /* Repeat the background for full coverage */
     position: absolute;
-    width: 210%; /* Set width */
+    width: 230%; /* Set width */
     height: 280%; /* Set height */
     z-index: -1;
     transform: rotate(15deg); /* Tilt effect */
