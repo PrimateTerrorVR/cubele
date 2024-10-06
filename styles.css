@@ -35,27 +35,60 @@ body {
     margin: 0 15px;
     color: #1E90FF; /* Link color */
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* Increased font size for better visibility */
 }
 
 .content {
-    text-align: center;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center content vertically */
+    justify-content: space-between; /* Space out elements */
     margin-top: 100px;
     color: black; /* Change text color to black */
+    padding: 0 50px; /* Add padding for spacing */
+}
+
+.left-content {
+    flex: 1; /* Take remaining space on the left */
+    text-align: left; /* Align text to the left */
+    padding-right: 20px; /* Add space between text and checkerboard */
 }
 
 .title {
-    font-size: 2.5rem;
+    font-size: 3rem; /* Increased title size */
     color: black; /* Title text color */
 }
 
 .description {
-    font-size: 1.2rem;
+    font-size: 1.5rem; /* Increased description size */
     margin: 20px 0;
     color: black; /* Description text color */
 }
 
 .main-image {
-    width: 50%; /* Responsive size */
-    max-width: 400px;
+    width: 70%; /* Increased size for better visibility */
+    max-width: 500px; /* Adjusted maximum width */
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-start; /* Align social media links to the left */
+    margin-top: 20px; /* Add space above social media */
+}
+
+.social-media a {
+    margin-right: 15px; /* Space between social media links */
+    color: black; /* Change social media link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 1.2rem; /* Size for social media links */
+}
+
+.checkerboard {
+    position: absolute; /* Position checkerboard in relation to the content */
+    right: 0; /* Align checkerboard to the right */
+    width: 40%; /* Adjust width for visual balance */
+    height: 100%; /* Full height for checkerboard */
+    z-index: -2; /* Ensure it stays behind other content */
+    background-image: url('https://ac.blooket.com/dashboard/assets/BlookCheckers-BykpA7vd.png'); /* Checkerboard image */
+    background-size: 43%; /* Adjust size for a better fit */
+    background-repeat: repeat; /* Repeat the background for full coverage */
 }
