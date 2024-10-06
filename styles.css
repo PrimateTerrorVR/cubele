@@ -45,12 +45,14 @@ body {
     margin-top: 100px;
     color: black; /* Change text color to black */
     padding: 0 50px; /* Add padding for spacing */
+    position: relative; /* Keep content relative for positioning */
 }
 
 .left-content {
     flex: 1; /* Take remaining space on the left */
     text-align: left; /* Align text to the left */
     padding-right: 20px; /* Add space between text and checkerboard */
+    z-index: 1; /* Ensure text is above the background */
 }
 
 .title {
@@ -91,4 +93,5 @@ body {
     background-image: url('https://ac.blooket.com/dashboard/assets/BlookCheckers-BykpA7vd.png'); /* Checkerboard image */
     background-size: 43%; /* Adjust size for a better fit */
     background-repeat: repeat; /* Repeat the background for full coverage */
+    top: 0; /* Align checkerboard to the top */
 }
