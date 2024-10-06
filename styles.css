@@ -13,12 +13,12 @@ body {
 
 .background {
     background-image: url('https://ac.blooket.com/dashboard/assets/BlookCheckers-BykpA7vd.png');
-    background-size: 70%; /* Adjust size for zoomed-out effect */
+    background-size: 150%; /* Adjust size for a better fit */
     background-position: center; 
-    background-repeat: no-repeat;
+    background-repeat: repeat; /* Repeat the background for full coverage */
     position: absolute;
-    width: 160%;
-    height: 300%;
+    width: 100%;
+    height: 100%;
     z-index: -1;
     transform: rotate(15deg); /* Tilt effect */
 }
