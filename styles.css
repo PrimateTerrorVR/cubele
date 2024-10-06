@@ -17,8 +17,8 @@ body {
     background-position: center; 
     background-repeat: repeat; /* Repeat the background for full coverage */
     position: absolute;
-    width: 190%;
-    height: 280%;
+    width: 190%; /* Set width */
+    height: 280%; /* Set height */
     z-index: -1;
     transform: rotate(15deg); /* Tilt effect */
 }
@@ -33,7 +33,7 @@ body {
 
 .navbar a {
     margin: 0 15px;
-    color: #1E90FF;
+    color: #1E90FF; /* Link color */
     text-decoration: none;
     font-size: 1.2rem;
 }
@@ -41,16 +41,18 @@ body {
 .content {
     text-align: center;
     margin-top: 100px;
-    color: white;
+    color: black; /* Change text color to black */
 }
 
 .title {
     font-size: 2.5rem;
+    color: black; /* Title text color */
 }
 
 .description {
     font-size: 1.2rem;
     margin: 20px 0;
+    color: black; /* Description text color */
 }
 
 .main-image {
