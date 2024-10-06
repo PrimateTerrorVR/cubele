@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="../img/favicon.ico">
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Cubelet</title>
 </head>
 <body>
-    <div class="bg_img"></div>
-    <div class="navbar">
-        <a href="index.html">Home</a>
-        <a href="login.html">Login</a>
-        <a href="signup.html">Sign Up</a>
+    <div class="bg-checker"></div>
+    <nav class="navbar">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="login.html" class="nav-link">Login</a>
+        <a href="signup.html" class="nav-link">Sign Up</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="content">
+        <h1 class="title">Welcome to Cubelet</h1>
+        <p class="description">The very first Cubelet game with pixel art and badges!</p>
+        <p class="description">Programmed primarily in JavaScript!</p>
+        <button class="cta-button" onclick="window.location.href='signup.html'">Get Started</button>
     </div>
-    <div class="title_p">Cubelet</div>
-    
-    <center>
-        <h2 class="title-text">Welcome to Cubelet!</h2>
-        <h3 class="title-text">Your ultimate gaming experience awaits!</h3>
-        <img src="../img/homeBlooks.png" alt="Home Blooks" class="float-img" onclick="window.location.href='signup.html';">
-        <h3 class="terms-of-service">
-            <a href="../tos.html" style="color: white;">Terms Of Service</a>
-        </h3>
-    </center>
 </body>
 </html>
